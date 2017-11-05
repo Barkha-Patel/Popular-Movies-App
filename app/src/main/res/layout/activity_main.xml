@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#070807"
+
+    tools:context=".MainActivity">
+
+<FrameLayout
+    android:id="@+id/fragmentGridListContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/MovieGrid"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="200dp"
+        android:numColumns="2"
+        android:choiceMode="singleChoice"
+        />
+</FrameLayout>
+
+</LinearLayout>

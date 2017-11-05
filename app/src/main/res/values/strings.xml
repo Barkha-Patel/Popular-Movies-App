@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+
+    <string-array name="entries">
+        <item >Popular</item>
+        <item>Top Rated</item>
+        <item>Favorite</item>
+    </string-array>
+
+    <string name="pref_default">popular</string>
+    <string name="load">Loading, Please Wait !</string>
+    <string name="noconn">Network Connection not available!</string>
+    <string name="popurl">http://api.themoviedb.org/3/movie/popular?api_key=</string>
+    <string name="apikey">b41a2d9229ccddc3abd08b64d83a5509</string>
+    <string name="topurl">" http://api.themoviedb.org/3/movie/top_rated?api_key="</string>
+    <string name="err">ERROR No data was read</string>
+</resources>

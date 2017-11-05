@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".MainActivity"
+    android:background="#070807">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/fragmentGridListContainer"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:minWidth="200dp">
+
+        <GridView
+            android:id="@+id/MovieGrid"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="200dp"
+            android:numColumns="3"
+            android:choiceMode="singleChoice"
+            />
+
+          </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/fragmentDetailContainer"
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:layout_weight=".67"
+            tools:layout="@layout/activity_detail"
+            />
+</LinearLayout>
+    </LinearLayout>
+
+
